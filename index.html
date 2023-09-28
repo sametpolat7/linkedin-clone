@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap5 CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>(5) Akış | LinkedIn</title>
+</head>
+<body>
+    <!--Navbar Start-->
+  <div class="bg-white sticky-top">
+    <div class="kapsayici">
+      <nav class="navbar navbar-expand-lg" style="height: 62px;">
+        <div class="container-md">
+          <a class="navbar-brand" href="#">
+            <img src="/img/favicon.png" alt="Brand Img" style="max-width: 30px;max-height: 30px;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </a>
+          <!--Search Bar-->
+          <div class="hidden">
+            <form class="d-flex" role="search">
+              <div class="dropdown search-bar">
+                <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;">
+                  <input class="form-control form-control-sm me-2" type="search" placeholder="Arama yap" aria-label="Search" style="background-color: rgb(238, 243, 250);">
+                </a>
+                <ul class="dropdown-menu search-drop">
+                 <div class="d-flex align-items-center" style="margin: 0 14px;">
+                  <h6 style="margin: 0;">
+                    En Yeni 
+                  </h6>
+                  <button class="btn btn-outline-secondary ms-auto" type="button" style="border: none;font-weight: 500;">
+                    Temizle
+                  </button>
+                 </div>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="0.875em" viewBox="0 0 512 512" style="fill: black;">
+                          <path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/>
+                        </svg>
+                      </span>
+                      &nbsp;
+                      Front-End Developer 
+                    </a>
+                </li>
+                <h6 style="margin:14px; display: flex; align-items: center;">
+                  Şunu aramayı deneyin
+                </h6>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="0.875em" viewBox="0 0 512 512" style="fill: black;">
+                          <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+                        </svg>
+                      </span>
+                      &nbsp;
+                      Intern Front-End Developer 
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="0.875em" viewBox="0 0 512 512" style="fill: black;">
+                          <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+                        </svg>
+                      </span>
+                      &nbsp;
+                      Junior Front-End Developer
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </form>
+          </div>
+          <!--Search Bar Finish-->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown" style="margin-left: 100px;">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item" style="border-bottom: 2px solid black; padding-bottom: 0;">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <div class="menu-icons" style="color: black;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z">
+                    </path>
+                    </svg>
+                    Ana Sayfa
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="menu-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z">
+                      </path>
+                    </svg>
+                    Ağım
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="menu-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z">
+                      </path>
+                    </svg>
+                    İş İlanları
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="menu-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z">
+                      </path>
+                    </svg>
+                    Mesajlaşma
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="menu-icons">
+                    <div style="position: relative;">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                        <path d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z"></path>
+                      </svg>
+                      <span class="badge bg-danger notification" 
+                      style="border-radius: 50%; width: 16px; height: 16px;">
+                        5
+                      </span>
+                    </div>
+                    Bildirimler
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item dropdown" style="border-right: 1px solid rgb(222, 222, 222);padding-left: 20px;">
+                  <img src="/img/vesikalik.jpeg" alt="Samet Polat" style="border-radius: 50%;width: 24px;height: 24px;">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 12px; color: gray; padding: 5.5px 0 3px 0;">
+                    Ben
+                  </a>
+                <!--Dropdown Menu -- (Ben Buttonu)-->
+                <ul class="dropdown-menu dropdown-menu-end me-item">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <div style="display: flex;">
+                        <img src="/img/vesikalik.jpeg" alt="Samet Polat" style="width: 60px;height: 60px;border-radius: 50%;">
+                        <span style="margin: 0 0 8px 14px; color: black; line-height: 1.5rem; font-size: 15px;">
+                          <b>Samet Polat</b> <br>
+                          Biomedical Engineer
+                        </span>
+                      </div>
+                    </a>
+                      <button type="button" class="btn btn-sm btn-outline-primary me-button" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem;">
+                        <small>
+                          <b>
+                            Profili Görüntüleyin
+                          </b>
+                        </small>
+                      </button>
+                      <hr>
+                  </li>
+                  <li>
+                    <h6>Hesap</h6>
+                    <a class="dropdown-item" href="#">
+                      <span>
+                        <img src="/img/Linkedin+premium.png" alt="LinkedIn Premium" style="width: 15px;height: 15px;">
+                      </span>
+                      Premium'u ücretsiz deneyin</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">
+                      Ayarlar ve Gizlilik
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">
+                      Yardım
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">
+                      Dil
+                    </a>
+                  </li>
+                  <hr>
+                  <li>
+                    <h6>Yönet</h6>
+                    <a href="#" class="dropdown-item">Gönderi ve Faaliyetler
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">İş İlanı Yayınlama Hesabı
+                    </a>
+                  </li>
+                  <hr>
+                  <li>
+                    <a href="#" class="dropdown-item">Oturumu Kapat
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!--Dropdown Menu Finish-->
+              <li class="nav-item" style="padding-left: 20px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="color: gray;">
+                  <path d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z">
+                  </path>
+                </svg>
+                <a class="nav-link dropdown-toggle" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas" style="font-size: 12px; color: gray; padding: 5.5px 0 3px 0;">
+                  İş için
+                </a>
+              </li>
+              <span style="width: 100px;font-size: 12px;text-align: center;margin-left: 16px;">
+                <a href="#" style="color: #915907;">Daha hızlı işe alın. Ücretsiz deneyin Premium .</a>
+              </span>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    </div>
+  </div>
+  <!--Navbar End-->
+  <!--Offcanvas in Navbar Start-->
+  <div class="offcanvas offcanvas-end cnvs-forwork" tabindex="-1"id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="overflow: auto;">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            İş için
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="card" style="margin: 24px;"> <!--1.Card-->
+          <div class="card-header" style="padding: 16px 24px;background-color: white;font-weight: bold;">
+            <h6>
+                Diğer LinkedIn Ürünlerini Ziyaret Edin
+            </h6>
+          </div>
+          <div class="card-body">
+            <div class="flex-container">
+              <div class="cnvs-icons">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40" focusable="false">
+                  <defs>
+                    <linearGradient id="app-learning-@1-a" x1="7.18" y1="6.98" x2="13.8" y2="20.22" gradientUnits="userSpaceOnUse">
+                      <stop offset="0" stop-color="#33aada"></stop>
+                      <stop offset="1" stop-color="#0091ca"></stop>
+                    </linearGradient>
+                    <linearGradient id="app-learning-@1-b" x1="12.96" y1="-17.55" x2="27.9" y2="24.33" gradientUnits="userSpaceOnUse">
+                      <stop offset="0" stop-color="#665ed0"></stop>
+                      <stop offset="1" stop-color="#0073b1"></stop>
+                    </linearGradient>
+                  </defs>
+                  <path d="M20 30H8a1 1 0 01-1-1V11a1 1 0 011-1h12v20z" fill="url(#app-learning-@1-a)"></path>
+                  <path d="M20 10h12a1 1 0 011 1v18a1 1 0 01-1 1H20V10z" fill="url(#app-learning-@1-b)"></path>
+                  <path fill="#33aada" d="M9 19h8v2H9zM9 23h8v2H9zM9 15h8v2H9z"></path>
+                  <path fill="#006097" d="M23 19h8v2h-8zM23 23h8v2h-8zM23 15h8v2h-8z"></path>
+                  <path d="M17.41 15.25l7.46 4.52a.27.27 0 010 .46l-7.46 4.52a.27.27 0 01-.41-.23v-9a.27.27 0 01.41-.27z" fill="#fff"></path>
+                </svg> <br>
+                Learning
+              </div>
+              <div class="cnvs-icons">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40" focusable="false">
+                  <defs>
+                    <linearGradient id="app-talent-insights-medium-a" x1="34.05" y1="44.47" x2="13.67" y2="19.5" gradientUnits="userSpaceOnUse">
+                      <stop offset="0" stop-color="#665ed0"></stop>
+                      <stop offset="1" stop-color="#0073b1"></stop>
+                    </linearGradient>
+                  </defs>
+                  <path d="M25 6H10a1 1 0 00-1 1v25a1 1 0 001 1h20a1 1 0 001-1V12z" fill="#caedff"></path>
+                  <path fill="#65c3e8" d="M25 6v6h6l-6-6z"></path>
+                  <path d="M20 19a4 4 0 114-4 4 4 0 01-4 4zm3 2h-6v12h6zm8 11v-8h-5v9h4a1 1 0 001-1zm-17-5H9v5a1 1 0 001 1h4z" fill="url(#app-talent-insights-medium-a)"></path>
+                </svg> <br>
+                Yetenek <br> İçgörüleri
+              </div>
+              <div class="cnvs-icons">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40" focusable="false">
+                  <defs>
+                    <linearGradient id="app-jobs-posting-@1-a" x1="-6.68" y1="-1" x2="25.05" y2="26.36" gradientUnits="userSpaceOnUse">
+                      <stop offset="0" stop-color="#665ed0"></stop>
+                      <stop offset="1" stop-color="#0073b1"></stop>
+                    </linearGradient>
+                  </defs>
+                  <path fill="none" stroke="#caedff" stroke-miterlimit="10" stroke-width="2" d="M20 8.67l-4 6.66M20 8.67l4 6.66"></path>
+                  <rect x="8" y="14" width="24" height="16" rx="1" ry="1" fill="url(#app-jobs-posting-@1-a)"></rect>
+                  <path fill="#65c3e8" d="M12 18h16v3H12z"></path>
+                  <path fill="#33aada" d="M15 23h10v3H15z"></path>
+                  <circle cx="20" cy="9" r="2" fill="#65c3e8"></circle>
+                </svg> <br>
+                İş İlanı <br>
+                yayınla
+              </div>
+              <div class="cnvs-icons">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40" focusable="false">
+                  <defs>
+                    <linearGradient id="app-ads-@1-a" x1="34.78" y1="3.84" x2="14.66" y2="25.84" gradientUnits="userSpaceOnUse">
+                      <stop offset="0" stop-color="#665ed0"></stop>
+                      <stop offset="1" stop-color="#0073b1"></stop>
+                    </linearGradient>
+                  </defs>
+                  <g fill="url(#app-ads-@1-a)">
+                    <path d="M20 11.88A8.13 8.13 0 1111.88 20 8.13 8.13 0 0120 11.88M20 9a11 11 0 1011 11A11 11 0 0020 9z"></path>
+                    <circle cx="20" cy="20" r="4"></circle>
+                  </g>
+                  <circle cx="20" cy="20" r="2" transform="rotate(-45 20.002 19.995)" fill="#33aada"></circle>
+                  <path fill="#33aada" d="M24.246 12.932l2.829 2.828-5.657 5.657-2.828-2.829z"></path>
+                  <path fill="#33aada" d="M29.19 16.46l-4.95-.7-.7-4.95 4.94-4.95L29 11l5.14.52-4.95 4.94z"></path>
+                </svg> <br>
+                Reklam ver
+              </div>
+              <div class="cnvs-icons">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40" focusable="false">
+                  <defs>
+                    <linearGradient id="app-sales-navigator-@1-a" x1="40.53" y1="-53.4" x2="20.23" y2="19.17" gradientUnits="userSpaceOnUse">
+                      <stop offset="0" stop-color="#665ed0"></stop>
+                      <stop offset="1" stop-color="#0073b1"></stop>
+                    </linearGradient>
+                  </defs>
+                  <circle cx="20" cy="20" r="14" fill="url(#app-sales-navigator-@1-a)"></circle>
+                  <path d="M17.17 17.17L27.42 12a.4.4 0 01.18 0 .39.39 0 01.4.39.42.42 0 010 .19l-5.17 10.25z" fill="#fff"></path>
+                  <path d="M17.17 17.17L12 27.42a.42.42 0 000 .19.39.39 0 00.37.38.45.45 0 00.21 0l10.25-5.12z" fill="#98d8f4"></path>
+                  <circle cx="20" cy="20" r="4" fill="#fff"></circle>
+                  <circle cx="20" cy="20" r="2" fill="#0073b1"></circle>
+                </svg> <br>
+                Adayları <br>
+                Bulun
+              </div>
+              <div class="cnvs-icons">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40" focusable="false">
+                  <defs>
+                    <linearGradient id="app-groups-@1-b" x1="1.84" y1="-24.59" x2="20.66" y2="25.05" gradientUnits="userSpaceOnUse">
+                      <stop offset="0" stop-color="#665ed0"></stop>
+                      <stop offset="1" stop-color="#0073b1"></stop>
+                    </linearGradient>
+                    <clipPath id="app-groups-@1-a">
+                      <path d="M18.17 9.15a11 11 0 00-7.76 16.23l-2 5.6a.47.47 0 00.63.59l5.21-2.23a11 11 0 103.92-20.19z" fill="none"></path>
+                    </clipPath>
+                  </defs>
+                  <path d="M18.17 9.15a11 11 0 00-7.76 16.23l-2 5.6a.47.47 0 00.63.59l5.21-2.23a11 11 0 103.92-20.19z" fill="#caedff"></path>
+                  <circle cx="29" cy="16" r="3" fill="#0091ca"></circle>
+                  <circle cx="11" cy="16" r="3" fill="#0091ca"></circle>
+                  <g clip-path="url(#app-groups-@1-a)">
+                    <path d="M20 18a4 4 0 114-4 4 4 0 01-4 4zm3 2h-6v16h6V20z" fill="url(#app-groups-@1-b)"></path>
+                    <path fill="#0091ca" d="M26 21h6v14h-6zM8 21h6v14H8z"></path>
+                  </g>
+                </svg> <br>
+                Gruplar
+              </div>
+              <div class="cnvs-icons">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40" focusable="false">
+                  <circle cx="20" cy="12" r="4" fill="#0073b1"></circle>
+                  <path d="M31.88 13.46L16.17 29.17 18 31a1.37 1.37 0 002 0l14.71-14.71a1.13 1.13 0 00.29-.8.89.89 0 00-.29-.61l-1.41-1.42a1 1 0 00-1.42 0z" fill="#0091ca"></path>
+                  <path d="M21.83 29.17L20 31a1.35 1.35 0 01-1 .4 1.36 1.36 0 01-1-.4l-8.71-8.71a1 1 0 010-1.41l1.41-1.41a1.07 1.07 0 01.76-.29.94.94 0 01.65.29z" fill="#33aada" opacity=".8"></path>
+                  <path fill="#0073b1" d="M19 26.34l4-4V18h-6v6.34l2 2z"></path>
+                </svg> <br>
+                Hizmetler <br>
+                Mağazası
+              </div>
+              <div class="cnvs-icons"></div>
+              <div class="cnvs-icons"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="margin: 0 24px 24px;"> <!--2.Card-->
+          <div class="card-header" style="padding-top: 16px; background-color: white;font-weight: bold;">
+            <h6>
+              Kurumsal firmalar için diğer ayrıcalıkları keşfedin
+            </h6>
+          </div>
+          <div class="card-body"> 
+            <div class="mb-3" style="line-height: 0.9;"> <!--2.1-->
+              <a class="c-text" href="#">
+                <span style="font-size: 14px; font-weight: 600;color: black;">LinkedIn’de işe alım yapın
+                </span><br>
+                <span style="font-size: 12px;color: gray;">Yetenekleri bulun, onların ilgisini çekin ve işe alın
+                </span>
+              </a>
+            </div>
+            <div class="mb-3" style="line-height: 0.9;"> <!--2.2-->
+              <a class="c-text" href="#">
+                <span style="font-size: 14px; font-weight: 600;color: black;">LinkedIn ile satış yapın
+                </span><br>
+                <span style="font-size: 12px;color: gray;">
+                  Alıcılarla bağ kurun
+                </span>
+              </a>
+            </div>
+            <div class="mb-3" style="line-height: 0.9;"> <!--2.3-->
+              <a class="c-text" href="#">
+                <span style="font-size: 14px; font-weight: 600;color: black;">
+                  Ücretsiz iş ilanı yayınla
+                </span><br>
+                <span style="font-size: 12px;color: gray;">
+                  Nitelikli adaylara ulaşın
+                </span>
+              </a>
+            </div>
+            <div class="mb-3" style="line-height: 0.9;"> <!--2.4-->
+              <a class="c-text" href="#">
+                <span style="font-size: 14px; font-weight: 600;color: black;">
+                  LinkedIn’de reklam verin
+                </span><br>
+                <span style="font-size: 12px;color: gray;">
+                  İşinizi büyütün ve yeni müşteriler edinin
+                </span>
+              </a>
+            </div>
+            <div class="mb-3" style="line-height: 0.9;"> <!--2.5-->
+              <a class="c-text" href="#">
+                <span style="font-size: 14px; font-weight: 600;color: black;">
+                  LinkedIn ile yeni şeyler öğrenin
+                </span><br>
+                <span style="font-size: 12px;color: gray;">
+                  Çalışanlarınızın yeteneklerini geliştirecek kurslar
+                </span>
+              </a>
+            </div>
+            <div class="mb-3" style="line-height: 0.9;"> <!--2.6-->
+              <a class="c-text" href="#">
+                <span style="font-size: 14px; font-weight: 600;color: black;">
+                  Yönetici Merkezi
+                </span><br>
+                <span style="font-size: 12px;color: gray;">
+                  Faturalama ve hesap ayrıntılarını yönet
+                </span>
+              </a>
+            </div>
+            <hr>
+            <div>
+              <a class="c-text" href="#" style="color: black;">
+                <span style="font-size: 14px;font-weight: 600;">Şirket Sayfası oluşturun</span>
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                    <path d="M14 9H9v5H7V9H2V7h5V2h2v5h5z"></path>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+  </div>
+  <!--Offcanvas in Navbar Finish-->
+  <!--Main Page (Kapsayici) Start-->
+  <div class="kapsayici mt-3">
+    <div class="flex-container">
+      <!--Left Side Bar Start-->
+      <div class="leftsidebar">
+        <div class="card"> 
+          <div class="">
+            <img src="/assets/leftbar-img.svg" alt="" class="card-img-top">
+            <div class="card-body">
+              <div class="flex-align-pic">
+                <img src="/img/vesikalik.jpeg" alt="Samet Polat" style="width: 72px;height: 72px;border: 2px solid white;border-radius: 50%;margin-top: -54px;">
+                <div class="card-title mt-3" style="font-weight: 600;">
+                  <a class="s" href="#">
+                    Samet Polat
+                  </a>
+                </div>
+                <div style="margin-top: -12px;">
+                  <small class="subtitle-text">Biomedical Engineer</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer hidden" style="margin: 0;padding: 0;">
+              <ul class="ulist">
+                <li class="leftbar-font mb-2" style="padding: 14px 16px 0;">
+                  <a href="#">
+                    Profil görüntüleyenler 
+                    <span class="float-end" style="color: #0A66C2;">32</span>
+                  </a>
+                </li>
+                <li class="leftbar-font" style="padding: 0 16px 14px;">
+                  <a href="#">
+                    Tüm analizleri görüntüle 
+                    <span class="float-end" style="color: #0A66C2;">0</span>
+                  </a>
+                </li>
+              </ul>
+          </div>
+          <div class="card-footer hidden">
+            <a href="#" style="text-decoration: none;">
+              <small class="subtitle-text">
+                Özel araç ve içgörülere erişin
+              </small>
+              <br>
+              <img src="/img/Linkedin+premium.png" alt="LinkedIn Premium" style="width: 15px;height: 15px;">
+              <small class="leftbar-font" style="color: black; text-decoration: underline;">
+                Daha hızlı işe alın. Ücretsiz deneyin Premium .
+              </small>
+          </a>
+          </div>
+          <div class="card-footer hidden">
+            <a href="#" style="text-decoration: none;">
+              <svg class="me-2" xmlns="http://www.w3.org/2000/svg" height="0.875em" viewBox="0 0 384 512" style="fill: rgb(72, 72, 72);">
+                <path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/>
+              </svg>
+              <small class="leftbar-font" style="color: black;">Öğelerim</small>
+            </a>
+          </div>
+        </div> <!--1.Card Finish-->
+        <div class="card mt-2"> <!--2.Card Start-->
+          <div class="card-body hidden" style="padding: 4px 12px;">
+            <ul class="ulist">
+              <li class="leftbar-fontb mb-2">
+                <a href="#">
+                  Gruplar
+                </a>
+              </li>
+              <li class="leftbar-fontb mb-2">
+                <a href="#">
+                  Etkinlikler
+                  <span class="float-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" style="fill: black;">
+                      <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="leftbar-fontb">
+                <a href="#">
+                  Takip edilen hashtagler
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="card-footer text-center hidden">
+            <a href="#" style="font-weight: 500;color: gray; text-decoration: none;">
+              <small>
+                Daha fazla keşfet
+              </small>
+            </a>
+          </div>
+        </div> <!--2.Card Finish-->
+      </div><!--Left Side Bar Finish-->
+      <!--Middle of Page Start-->
+      <div class="middle-page">
+        <div class="card"> <!--Gönderi Başlat Kısmı-->
+          <div class="card-body d-flex flex-row align-items-center">
+            <img src="/img/vesikalik.jpeg" alt="Samet Polat" style="width: 48px;height: 48px;border-radius: 50%;">
+            <input class="form-control ms-2" id="postarea" type="text" placeholder="Gönderi başlat" aria-label="form-control">
+          </div>
+          <div class="d-flex justify-content-around">
+            <div class="postarea-tabs">
+              <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 512 512" style="fill: #378FE9;">
+                <path d="M448 80c8.8 0 16 7.2 16 16V415.8l-5-6.5-136-176c-4.5-5.9-11.6-9.3-19-9.3s-14.4 3.4-19 9.3L202 340.7l-30.5-42.7C167 291.7 159.8 288 152 288s-15 3.7-19.5 10.1l-80 112L48 416.3l0-.3V96c0-8.8 7.2-16 16-16H448zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm80 192a48 48 0 1 0 0-96 48 48 0 1 0 0 96z"/>
+              </svg>
+              &nbsp;
+              <span class="post-text">
+                Medya
+              </span>
+            </div>
+            <div class="postarea-tabs">
+              <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 448 512" style="fill: #C37D16;">
+                <path d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"/>
+              </svg>
+              &nbsp;
+              <span class="post-text">
+                Etkinlik
+              </span>
+            </div>
+            <div class="postarea-tabs">
+              <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 512 512" style="fill: #E06847;">
+                <path d="M168 80c-13.3 0-24 10.7-24 24V408c0 8.4-1.4 16.5-4.1 24H440c13.3 0 24-10.7 24-24V104c0-13.3-10.7-24-24-24H168zM72 480c-39.8 0-72-32.2-72-72V112C0 98.7 10.7 88 24 88s24 10.7 24 24V408c0 13.3 10.7 24 24 24s24-10.7 24-24V104c0-39.8 32.2-72 72-72H440c39.8 0 72 32.2 72 72V408c0 39.8-32.2 72-72 72H72zM176 136c0-13.3 10.7-24 24-24h96c13.3 0 24 10.7 24 24v80c0 13.3-10.7 24-24 24H200c-13.3 0-24-10.7-24-24V136zm200-24h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H376c-13.3 0-24-10.7-24-24s10.7-24 24-24zm0 80h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H376c-13.3 0-24-10.7-24-24s10.7-24 24-24zM200 272H408c13.3 0 24 10.7 24 24s-10.7 24-24 24H200c-13.3 0-24-10.7-24-24s10.7-24 24-24zm0 80H408c13.3 0 24 10.7 24 24s-10.7 24-24 24H200c-13.3 0-24-10.7-24-24s10.7-24 24-24z"/>
+              </svg>
+              &nbsp;
+              <span class="post-text">
+                Yazı yaz
+              </span>
+            </div>
+          </div>
+        </div>
+        <div> <!--HR-->
+          <button class="d-flex w-100 hr" aria-expanded="false" type="button" tabindex="0">
+            <hr class="flex-grow-1 v-hr">
+            <div class="d-flex dropdown">
+              <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;color: black;">
+                <span class="subtitle-text">
+                  Sıralama ölçütü:
+                </span>
+                <span class="leftbar-fontb">
+                  En önemli
+                </span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#" style="border-left: 1px solid rgb(0, 88, 0);">
+                    En önemli
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    En yeni
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </button>
+        </div>
+        <!--Gönderiler-->
+        <div class="card"> <!--1.Gönderi-->
+          <div class="card-header">
+            <img class="gönderi-header-img" src="/img/linus-small.jpeg" alt="Linus Torvalds">
+            <small class="gönderi-header2">
+              Linus Torwalls
+            </small>
+            <small class="g-subtext">
+              bunu beğendi
+            </small>
+            <span class="dropdown">
+              <a class="float-end" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 448 512" style="fill: rgb(41, 41, 41);">
+                  <path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/>
+                </svg>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end gh-dropdown">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 384 512">
+                      <path d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Kaydet
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 640 512">
+                      <path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Yayınlamak için linki kopyala
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 640 512">
+                      <path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Bu gönderiyi yerleştir
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 640 512">
+                      <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c8.4-19.3 10.6-41.4 4.8-63.3c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zM373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5L373 389.9z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Bunları görmek istemiyorum
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 512 512">
+                      <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Takip etmeyi durdurun
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 448 512">
+                      <path d="M64 32C64 14.3 49.7 0 32 0S0 14.3 0 32V64 368 480c0 17.7 14.3 32 32 32s32-14.3 32-32V352l64.3-16.1c41.1-10.3 84.6-5.5 122.5 13.4c44.2 22.1 95.5 24.8 141.7 7.4l34.7-13c12.5-4.7 20.8-16.6 20.8-30V66.1c0-23-24.2-38-44.8-27.7l-9.6 4.8c-46.3 23.2-100.8 23.2-147.1 0c-35.1-17.6-75.4-22-113.5-12.5L64 48V32z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Bu gönderiyi yeniden yayınla
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </span>
+          </div>
+          <div class="card-body">
+            <div class="d-flex flex-row">
+              <div>
+                <img class="gb-img" src="/img/mertkgan.jpg" alt="Kel">
+              </div>
+              <div class="d-flex flex-column identy">
+                <span class="gname">
+                  <small>
+                    Mert Kağan Topal
+                  </small>
+                </span>
+                <span>
+                  <small class="g-subtext">
+                    DevOps & Automation Engineer
+                  </small>
+                </span>
+                <div>
+                  <small class="g-subtext">
+                    5 saat 
+                    <span> <!--Dot SVG-->
+                      <svg xmlns="http://www.w3.org/2000/svg" height="0.2em" viewBox="0 0 512 512" style="fill: rgb(98, 98, 98);">
+                        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/>
+                      </svg>
+                    </span>
+                    <span> <!--Earth SVG-->
+                      <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 512 512" style="fill: rgb(97, 97, 97);">
+                        <path d="M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/>
+                      </svg>
+                    </span>
+                  </small>
+                </div>
+              </div>
+              <div class="ms-auto">
+                <button class="addconnect" type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 640 512" style="fill: #0A66C2;">
+                    <path d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"/>
+                  </svg>
+                  Bağlantı kur
+                </button>
+              </div>
+            </div>
+            <div class="gmain mt-2">
+              really like that &#128514; <br>
+              via: <span class="hashtag">
+                funnysoftware
+              </span>
+              <br><br>
+              <span class="hashtag">
+                #fun #development #software
+              </span>
+              <img class="w-100 mt-1" src="/img/Programmers while working.jpg" alt="Funny Picture">
+              <div class="mt-2">
+                <span class="emote">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="fill:#0A66C2;">
+                    <path d="M323.8 34.8c-38.2-10.9-78.1 11.2-89 49.4l-5.7 20c-3.7 13-10.4 25-19.5 35l-51.3 56.4c-8.9 9.8-8.2 25 1.6 33.9s25 8.2 33.9-1.6l51.3-56.4c14.1-15.5 24.4-34 30.1-54.1l5.7-20c3.6-12.7 16.9-20.1 29.7-16.5s20.1 16.9 16.5 29.7l-5.7 20c-5.7 19.9-14.7 38.7-26.6 55.5c-5.2 7.3-5.8 16.9-1.7 24.9s12.3 13 21.3 13L448 224c8.8 0 16 7.2 16 16c0 6.8-4.3 12.7-10.4 15c-7.4 2.8-13 9-14.9 16.7s.1 15.8 5.3 21.7c2.5 2.8 4 6.5 4 10.6c0 7.8-5.6 14.3-13 15.7c-8.2 1.6-15.1 7.3-18 15.1s-1.6 16.7 3.6 23.3c2.1 2.7 3.4 6.1 3.4 9.9c0 6.7-4.2 12.6-10.2 14.9c-11.5 4.5-17.7 16.9-14.4 28.8c.4 1.3 .6 2.8 .6 4.3c0 8.8-7.2 16-16 16H286.5c-12.6 0-25-3.7-35.5-10.7l-61.7-41.1c-11-7.4-25.9-4.4-33.3 6.7s-4.4 25.9 6.7 33.3l61.7 41.1c18.4 12.3 40 18.8 62.1 18.8H384c34.7 0 62.9-27.6 64-62c14.6-11.7 24-29.7 24-50c0-4.5-.5-8.8-1.3-13c15.4-11.7 25.3-30.2 25.3-51c0-6.5-1-12.8-2.8-18.7C504.8 273.7 512 257.7 512 240c0-35.3-28.6-64-64-64l-92.3 0c4.7-10.4 8.7-21.2 11.8-32.2l5.7-20c10.9-38.2-11.2-78.1-49.4-89zM32 192c-17.7 0-32 14.3-32 32V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32H32z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="fill: #E06847;">
+                    <path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" style="fill: #C37D16;">
+                    <path d="M297.2 248.9C311.6 228.3 320 203.2 320 176c0-70.7-57.3-128-128-128S64 105.3 64 176c0 27.2 8.4 52.3 22.8 72.9c3.7 5.3 8.1 11.3 12.8 17.7l0 0c12.9 17.7 28.3 38.9 39.8 59.8c10.4 19 15.7 38.8 18.3 57.5H109c-2.2-12-5.9-23.7-11.8-34.5c-9.9-18-22.2-34.9-34.5-51.8l0 0 0 0c-5.2-7.1-10.4-14.2-15.4-21.4C27.6 247.9 16 213.3 16 176C16 78.8 94.8 0 192 0s176 78.8 176 176c0 37.3-11.6 71.9-31.4 100.3c-5 7.2-10.2 14.3-15.4 21.4l0 0 0 0c-12.3 16.8-24.6 33.7-34.5 51.8c-5.9 10.8-9.6 22.5-11.8 34.5H226.4c2.6-18.7 7.9-38.6 18.3-57.5c11.5-20.9 26.9-42.1 39.8-59.8l0 0 0 0 0 0c4.7-6.4 9-12.4 12.7-17.7zM192 128c-26.5 0-48 21.5-48 48c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-44.2 35.8-80 80-80c8.8 0 16 7.2 16 16s-7.2 16-16 16zm0 384c-44.2 0-80-35.8-80-80V416H272v16c0 44.2-35.8 80-80 80z"/>
+                  </svg>
+                </span>
+                &nbsp;
+                <span class="gmain-subtext">
+                  Deepsundar Rout ve 163 diğer kişi
+                </span>
+                <span class="float-end gmain-subtext">
+                  8 yorum
+                  <svg xmlns="http://www.w3.org/2000/svg" height="0.2em" viewBox="0 0 512 512" style="fill: rgb(98, 98, 98);">
+                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z">
+                  </svg>
+                  19 paylaşım
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex flex-row">
+              <div class="footer-tabs">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512" style="fill: rgba(0, 0, 0, 0.6);">
+                  <path d="M323.8 34.8c-38.2-10.9-78.1 11.2-89 49.4l-5.7 20c-3.7 13-10.4 25-19.5 35l-51.3 56.4c-8.9 9.8-8.2 25 1.6 33.9s25 8.2 33.9-1.6l51.3-56.4c14.1-15.5 24.4-34 30.1-54.1l5.7-20c3.6-12.7 16.9-20.1 29.7-16.5s20.1 16.9 16.5 29.7l-5.7 20c-5.7 19.9-14.7 38.7-26.6 55.5c-5.2 7.3-5.8 16.9-1.7 24.9s12.3 13 21.3 13L448 224c8.8 0 16 7.2 16 16c0 6.8-4.3 12.7-10.4 15c-7.4 2.8-13 9-14.9 16.7s.1 15.8 5.3 21.7c2.5 2.8 4 6.5 4 10.6c0 7.8-5.6 14.3-13 15.7c-8.2 1.6-15.1 7.3-18 15.1s-1.6 16.7 3.6 23.3c2.1 2.7 3.4 6.1 3.4 9.9c0 6.7-4.2 12.6-10.2 14.9c-11.5 4.5-17.7 16.9-14.4 28.8c.4 1.3 .6 2.8 .6 4.3c0 8.8-7.2 16-16 16H286.5c-12.6 0-25-3.7-35.5-10.7l-61.7-41.1c-11-7.4-25.9-4.4-33.3 6.7s-4.4 25.9 6.7 33.3l61.7 41.1c18.4 12.3 40 18.8 62.1 18.8H384c34.7 0 62.9-27.6 64-62c14.6-11.7 24-29.7 24-50c0-4.5-.5-8.8-1.3-13c15.4-11.7 25.3-30.2 25.3-51c0-6.5-1-12.8-2.8-18.7C504.8 273.7 512 257.7 512 240c0-35.3-28.6-64-64-64l-92.3 0c4.7-10.4 8.7-21.2 11.8-32.2l5.7-20c10.9-38.2-11.2-78.1-49.4-89zM32 192c-17.7 0-32 14.3-32 32V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32H32z"/>
+                </svg>
+                <span>
+                  Beğen
+                </span>
+              </div>
+              <div class="footer-tabs">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512" style="fill: rgba(0, 0, 0, 0.6);">
+                  <path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z"/>
+                </svg>
+                <span>
+                  Yorum Yap
+                </span>
+              </div>
+              <div class="footer-tabs">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 576 512" style="fill: rgba(0, 0, 0, 0.6);">
+                  <path d="M272 416c17.7 0 32-14.3 32-32s-14.3-32-32-32H160c-17.7 0-32-14.3-32-32V192h32c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-64-64c-12.5-12.5-32.8-12.5-45.3 0l-64 64c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l32 0 0 128c0 53 43 96 96 96H272zM304 96c-17.7 0-32 14.3-32 32s14.3 32 32 32l112 0c17.7 0 32 14.3 32 32l0 128H416c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l64 64c12.5 12.5 32.8 12.5 45.3 0l64-64c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8l-32 0V192c0-53-43-96-96-96L304 96z"/>
+                </svg>
+                <span>
+                  Paylaş
+                </span>
+              </div>
+              <div class="footer-tabs">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512" style="fill: rgba(0, 0, 0, 0.6);">
+                  <path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376V479.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/>
+                </svg>
+                <span>
+                  Gönder
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-2"> <!--2.Gönderi-->
+          <div class="card-header">
+            <img class="gönderi-header-img" src="/img/brendaneich25607.web_.jpg" alt="Brendan Eich">
+            <small class="gönderi-header2">
+              Brandon Eich
+            </small>
+            <small class="g-subtext">
+              bunu beğendi
+            </small>
+            <span class="dropdown">
+              <a class="float-end" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 448 512" style="fill: rgb(41, 41, 41);">
+                  <path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/>
+                </svg>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end gh-dropdown">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 384 512">
+                      <path d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Kaydet
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 640 512">
+                      <path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Yayınlamak için linki kopyala
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 640 512">
+                      <path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Bu gönderiyi yerleştir
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 640 512">
+                      <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c8.4-19.3 10.6-41.4 4.8-63.3c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zM373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5L373 389.9z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Bunları görmek istemiyorum
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 512 512">
+                      <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Takip etmeyi durdurun
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 448 512">
+                      <path d="M64 32C64 14.3 49.7 0 32 0S0 14.3 0 32V64 368 480c0 17.7 14.3 32 32 32s32-14.3 32-32V352l64.3-16.1c41.1-10.3 84.6-5.5 122.5 13.4c44.2 22.1 95.5 24.8 141.7 7.4l34.7-13c12.5-4.7 20.8-16.6 20.8-30V66.1c0-23-24.2-38-44.8-27.7l-9.6 4.8c-46.3 23.2-100.8 23.2-147.1 0c-35.1-17.6-75.4-22-113.5-12.5L64 48V32z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Bu gönderiyi yeniden yayınla
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </span>
+          </div>
+          <div class="card-body">
+            <div class="d-flex flex-row">
+              <div>
+                <img class="gb-img" src="/img/hakanyalcinkaya.jpg" alt="Hakan Yalçınkaya">
+              </div>
+              <div class="d-flex flex-column identy">
+                <span class="gname">
+                  <small>
+                    Hakan Yalçınkaya
+                  </small>
+                </span>
+                <span>
+                  <small class="g-subtext">
+                    Python (Django) & React Developer | PSM-I
+                  </small>
+                </span>
+                <div>
+                  <small class="g-subtext">
+                    4 ay  
+                    <span> <!--Dot SVG-->
+                      <svg xmlns="http://www.w3.org/2000/svg" height="0.2em" viewBox="0 0 512 512" style="fill: rgb(98, 98, 98);">
+                        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/>
+                      </svg>
+                    </span>
+                    <span> <!--Earth SVG-->
+                      <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 512 512" style="fill: rgb(97, 97, 97);">
+                        <path d="M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/>
+                      </svg>
+                    </span>
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div class="gmain mt-2">
+              <span class="hashtag">#FrontEnd #Development</span> ve 
+              <span class="hashtag">#React</span> 
+              hakkında kapsamlı #eğitim hazırladım (Eğitimin %95'i Yayınlandı). <span class="hashtag">#React</span> 
+              ile ilgili yeni bölümler hazırlamaya devam ediyorum ve Haziran sonuna kadar eğitimin tümü yayınlanmış olacak. Eğitime şimdiden baş
+              <span class="float-end" style="color: gray;font-size: 14px;cursor: pointer;">
+                …daha fazla gör
+              </span>
+              <img class="w-100 mt-2" src="/img/hakanhoca-post.jpg" alt="Hakan Hoca Post">
+              <div class="mt-2">
+                <span class="emote">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="fill:#0A66C2;">
+                    <path d="M323.8 34.8c-38.2-10.9-78.1 11.2-89 49.4l-5.7 20c-3.7 13-10.4 25-19.5 35l-51.3 56.4c-8.9 9.8-8.2 25 1.6 33.9s25 8.2 33.9-1.6l51.3-56.4c14.1-15.5 24.4-34 30.1-54.1l5.7-20c3.6-12.7 16.9-20.1 29.7-16.5s20.1 16.9 16.5 29.7l-5.7 20c-5.7 19.9-14.7 38.7-26.6 55.5c-5.2 7.3-5.8 16.9-1.7 24.9s12.3 13 21.3 13L448 224c8.8 0 16 7.2 16 16c0 6.8-4.3 12.7-10.4 15c-7.4 2.8-13 9-14.9 16.7s.1 15.8 5.3 21.7c2.5 2.8 4 6.5 4 10.6c0 7.8-5.6 14.3-13 15.7c-8.2 1.6-15.1 7.3-18 15.1s-1.6 16.7 3.6 23.3c2.1 2.7 3.4 6.1 3.4 9.9c0 6.7-4.2 12.6-10.2 14.9c-11.5 4.5-17.7 16.9-14.4 28.8c.4 1.3 .6 2.8 .6 4.3c0 8.8-7.2 16-16 16H286.5c-12.6 0-25-3.7-35.5-10.7l-61.7-41.1c-11-7.4-25.9-4.4-33.3 6.7s-4.4 25.9 6.7 33.3l61.7 41.1c18.4 12.3 40 18.8 62.1 18.8H384c34.7 0 62.9-27.6 64-62c14.6-11.7 24-29.7 24-50c0-4.5-.5-8.8-1.3-13c15.4-11.7 25.3-30.2 25.3-51c0-6.5-1-12.8-2.8-18.7C504.8 273.7 512 257.7 512 240c0-35.3-28.6-64-64-64l-92.3 0c4.7-10.4 8.7-21.2 11.8-32.2l5.7-20c10.9-38.2-11.2-78.1-49.4-89zM32 192c-17.7 0-32 14.3-32 32V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32H32z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="fill: #E06847;">
+                    <path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" style="fill: #C37D16;">
+                    <path d="M297.2 248.9C311.6 228.3 320 203.2 320 176c0-70.7-57.3-128-128-128S64 105.3 64 176c0 27.2 8.4 52.3 22.8 72.9c3.7 5.3 8.1 11.3 12.8 17.7l0 0c12.9 17.7 28.3 38.9 39.8 59.8c10.4 19 15.7 38.8 18.3 57.5H109c-2.2-12-5.9-23.7-11.8-34.5c-9.9-18-22.2-34.9-34.5-51.8l0 0 0 0c-5.2-7.1-10.4-14.2-15.4-21.4C27.6 247.9 16 213.3 16 176C16 78.8 94.8 0 192 0s176 78.8 176 176c0 37.3-11.6 71.9-31.4 100.3c-5 7.2-10.2 14.3-15.4 21.4l0 0 0 0c-12.3 16.8-24.6 33.7-34.5 51.8c-5.9 10.8-9.6 22.5-11.8 34.5H226.4c2.6-18.7 7.9-38.6 18.3-57.5c11.5-20.9 26.9-42.1 39.8-59.8l0 0 0 0 0 0c4.7-6.4 9-12.4 12.7-17.7zM192 128c-26.5 0-48 21.5-48 48c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-44.2 35.8-80 80-80c8.8 0 16 7.2 16 16s-7.2 16-16 16zm0 384c-44.2 0-80-35.8-80-80V416H272v16c0 44.2-35.8 80-80 80z"/>
+                  </svg>
+                </span>
+                &nbsp;
+                <span class="gmain-subtext">
+                  Brandon Eich ve 197 diğer kişi
+                </span>
+                <span class="float-end gmain-subtext">
+                  18 yorum
+                  <svg xmlns="http://www.w3.org/2000/svg" height="0.2em" viewBox="0 0 512 512" style="fill: rgb(98, 98, 98);">
+                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z">
+                  </svg>
+                  34 paylaşım
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex flex-row">
+              <div class="footer-tabs">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512" style="fill: rgba(0, 0, 0, 0.6);">
+                  <path d="M323.8 34.8c-38.2-10.9-78.1 11.2-89 49.4l-5.7 20c-3.7 13-10.4 25-19.5 35l-51.3 56.4c-8.9 9.8-8.2 25 1.6 33.9s25 8.2 33.9-1.6l51.3-56.4c14.1-15.5 24.4-34 30.1-54.1l5.7-20c3.6-12.7 16.9-20.1 29.7-16.5s20.1 16.9 16.5 29.7l-5.7 20c-5.7 19.9-14.7 38.7-26.6 55.5c-5.2 7.3-5.8 16.9-1.7 24.9s12.3 13 21.3 13L448 224c8.8 0 16 7.2 16 16c0 6.8-4.3 12.7-10.4 15c-7.4 2.8-13 9-14.9 16.7s.1 15.8 5.3 21.7c2.5 2.8 4 6.5 4 10.6c0 7.8-5.6 14.3-13 15.7c-8.2 1.6-15.1 7.3-18 15.1s-1.6 16.7 3.6 23.3c2.1 2.7 3.4 6.1 3.4 9.9c0 6.7-4.2 12.6-10.2 14.9c-11.5 4.5-17.7 16.9-14.4 28.8c.4 1.3 .6 2.8 .6 4.3c0 8.8-7.2 16-16 16H286.5c-12.6 0-25-3.7-35.5-10.7l-61.7-41.1c-11-7.4-25.9-4.4-33.3 6.7s-4.4 25.9 6.7 33.3l61.7 41.1c18.4 12.3 40 18.8 62.1 18.8H384c34.7 0 62.9-27.6 64-62c14.6-11.7 24-29.7 24-50c0-4.5-.5-8.8-1.3-13c15.4-11.7 25.3-30.2 25.3-51c0-6.5-1-12.8-2.8-18.7C504.8 273.7 512 257.7 512 240c0-35.3-28.6-64-64-64l-92.3 0c4.7-10.4 8.7-21.2 11.8-32.2l5.7-20c10.9-38.2-11.2-78.1-49.4-89zM32 192c-17.7 0-32 14.3-32 32V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32H32z"/>
+                </svg>
+                <span>
+                  Beğen
+                </span>
+              </div>
+              <div class="footer-tabs">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512" style="fill: rgba(0, 0, 0, 0.6);">
+                  <path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z"/>
+                </svg>
+                <span>
+                  Yorum Yap
+                </span>
+              </div>
+              <div class="footer-tabs">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 576 512" style="fill: rgba(0, 0, 0, 0.6);">
+                  <path d="M272 416c17.7 0 32-14.3 32-32s-14.3-32-32-32H160c-17.7 0-32-14.3-32-32V192h32c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-64-64c-12.5-12.5-32.8-12.5-45.3 0l-64 64c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l32 0 0 128c0 53 43 96 96 96H272zM304 96c-17.7 0-32 14.3-32 32s14.3 32 32 32l112 0c17.7 0 32 14.3 32 32l0 128H416c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l64 64c12.5 12.5 32.8 12.5 45.3 0l64-64c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8l-32 0V192c0-53-43-96-96-96L304 96z"/>
+                </svg>
+                <span>
+                  Paylaş
+                </span>
+              </div>
+              <div class="footer-tabs">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512" style="fill: rgba(0, 0, 0, 0.6);">
+                  <path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376V479.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/>
+                </svg>
+                <span>
+                  Gönder
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-2"> <!--3.Gönderi-->
+          <div class="card-header">
+            <img class="gönderi-header-img" src="/img/vesikalik.jpeg" alt="Samet Polat">
+            <small class="gönderi-header2">
+              Samet Polat
+            </small>
+            <small class="g-subtext">
+              bunu beğendi
+            </small>
+            <span class="dropdown">
+              <a class="float-end" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 448 512" style="fill: rgb(41, 41, 41);">
+                  <path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/>
+                </svg>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end gh-dropdown">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 384 512">
+                      <path d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Kaydet
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 640 512">
+                      <path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Yayınlamak için linki kopyala
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 640 512">
+                      <path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Bu gönderiyi yerleştir
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 640 512">
+                      <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c8.4-19.3 10.6-41.4 4.8-63.3c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zM373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5L373 389.9z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Bunları görmek istemiyorum
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 512 512">
+                      <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Takip etmeyi durdurun
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 448 512">
+                      <path d="M64 32C64 14.3 49.7 0 32 0S0 14.3 0 32V64 368 480c0 17.7 14.3 32 32 32s32-14.3 32-32V352l64.3-16.1c41.1-10.3 84.6-5.5 122.5 13.4c44.2 22.1 95.5 24.8 141.7 7.4l34.7-13c12.5-4.7 20.8-16.6 20.8-30V66.1c0-23-24.2-38-44.8-27.7l-9.6 4.8c-46.3 23.2-100.8 23.2-147.1 0c-35.1-17.6-75.4-22-113.5-12.5L64 48V32z"/>
+                    </svg>
+                    &nbsp;
+                    <span>
+                      Bu gönderiyi yeniden yayınla
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </span>
+          </div>
+          <div class="card-body">
+            <div class="d-flex flex-row">
+              <div>
+                <img class="gb-img" src="/img/slavabobrow.jpg" alt="Slava Bobrov">
+              </div>
+              <div class="d-flex flex-column identy">
+                <span class="gname">
+                  <small>
+                    Slava Bobrov
+                  </small>
+                </span>
+                <span>
+                  <small class="g-subtext">
+                    Brain-Computer Interfaces, Neuroscience, Machine Learning
+                  </small>
+                </span>
+                <div>
+                  <small class="g-subtext">
+                    8 ay  
+                    <span> <!--Dot SVG-->
+                      <svg xmlns="http://www.w3.org/2000/svg" height="0.2em" viewBox="0 0 512 512" style="fill: rgb(98, 98, 98);">
+                        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/>
+                      </svg>
+                    </span>
+                    <span> <!--Earth SVG-->
+                      <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 512 512" style="fill: rgb(97, 97, 97);">
+                        <path d="M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/>
+                      </svg>
+                    </span>
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div class="gmain mt-2">
+              Different types of brain imaging:
+              <br><br>
+              <span class="float-end" style="color: gray;font-size: 14px;cursor: pointer;">
+                …daha fazla gör
+              </span>
+              <img class="w-100 mt-2" src="/img/slava-post.jpg" alt="Slava Post">
+              <div class="mt-2">
+                <span class="emote">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="fill:#0A66C2;">
+                    <path d="M323.8 34.8c-38.2-10.9-78.1 11.2-89 49.4l-5.7 20c-3.7 13-10.4 25-19.5 35l-51.3 56.4c-8.9 9.8-8.2 25 1.6 33.9s25 8.2 33.9-1.6l51.3-56.4c14.1-15.5 24.4-34 30.1-54.1l5.7-20c3.6-12.7 16.9-20.1 29.7-16.5s20.1 16.9 16.5 29.7l-5.7 20c-5.7 19.9-14.7 38.7-26.6 55.5c-5.2 7.3-5.8 16.9-1.7 24.9s12.3 13 21.3 13L448 224c8.8 0 16 7.2 16 16c0 6.8-4.3 12.7-10.4 15c-7.4 2.8-13 9-14.9 16.7s.1 15.8 5.3 21.7c2.5 2.8 4 6.5 4 10.6c0 7.8-5.6 14.3-13 15.7c-8.2 1.6-15.1 7.3-18 15.1s-1.6 16.7 3.6 23.3c2.1 2.7 3.4 6.1 3.4 9.9c0 6.7-4.2 12.6-10.2 14.9c-11.5 4.5-17.7 16.9-14.4 28.8c.4 1.3 .6 2.8 .6 4.3c0 8.8-7.2 16-16 16H286.5c-12.6 0-25-3.7-35.5-10.7l-61.7-41.1c-11-7.4-25.9-4.4-33.3 6.7s-4.4 25.9 6.7 33.3l61.7 41.1c18.4 12.3 40 18.8 62.1 18.8H384c34.7 0 62.9-27.6 64-62c14.6-11.7 24-29.7 24-50c0-4.5-.5-8.8-1.3-13c15.4-11.7 25.3-30.2 25.3-51c0-6.5-1-12.8-2.8-18.7C504.8 273.7 512 257.7 512 240c0-35.3-28.6-64-64-64l-92.3 0c4.7-10.4 8.7-21.2 11.8-32.2l5.7-20c10.9-38.2-11.2-78.1-49.4-89zM32 192c-17.7 0-32 14.3-32 32V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32H32z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="fill: #E06847;">
+                    <path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" style="fill: #C37D16;">
+                    <path d="M297.2 248.9C311.6 228.3 320 203.2 320 176c0-70.7-57.3-128-128-128S64 105.3 64 176c0 27.2 8.4 52.3 22.8 72.9c3.7 5.3 8.1 11.3 12.8 17.7l0 0c12.9 17.7 28.3 38.9 39.8 59.8c10.4 19 15.7 38.8 18.3 57.5H109c-2.2-12-5.9-23.7-11.8-34.5c-9.9-18-22.2-34.9-34.5-51.8l0 0 0 0c-5.2-7.1-10.4-14.2-15.4-21.4C27.6 247.9 16 213.3 16 176C16 78.8 94.8 0 192 0s176 78.8 176 176c0 37.3-11.6 71.9-31.4 100.3c-5 7.2-10.2 14.3-15.4 21.4l0 0 0 0c-12.3 16.8-24.6 33.7-34.5 51.8c-5.9 10.8-9.6 22.5-11.8 34.5H226.4c2.6-18.7 7.9-38.6 18.3-57.5c11.5-20.9 26.9-42.1 39.8-59.8l0 0 0 0 0 0c4.7-6.4 9-12.4 12.7-17.7zM192 128c-26.5 0-48 21.5-48 48c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-44.2 35.8-80 80-80c8.8 0 16 7.2 16 16s-7.2 16-16 16zm0 384c-44.2 0-80-35.8-80-80V416H272v16c0 44.2-35.8 80-80 80z"/>
+                  </svg>
+                </span>
+                &nbsp;
+                <span class="gmain-subtext">
+                  Samet Polat ve 7 diğer kişi
+                </span>
+                <span class="float-end gmain-subtext">
+                  1 yorum
+                  <svg xmlns="http://www.w3.org/2000/svg" height="0.2em" viewBox="0 0 512 512" style="fill: rgb(98, 98, 98);">
+                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z">
+                  </svg>
+                  1 paylaşım
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex flex-row">
+              <div class="footer-tabs">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512" style="fill: rgba(0, 0, 0, 0.6);">
+                  <path d="M323.8 34.8c-38.2-10.9-78.1 11.2-89 49.4l-5.7 20c-3.7 13-10.4 25-19.5 35l-51.3 56.4c-8.9 9.8-8.2 25 1.6 33.9s25 8.2 33.9-1.6l51.3-56.4c14.1-15.5 24.4-34 30.1-54.1l5.7-20c3.6-12.7 16.9-20.1 29.7-16.5s20.1 16.9 16.5 29.7l-5.7 20c-5.7 19.9-14.7 38.7-26.6 55.5c-5.2 7.3-5.8 16.9-1.7 24.9s12.3 13 21.3 13L448 224c8.8 0 16 7.2 16 16c0 6.8-4.3 12.7-10.4 15c-7.4 2.8-13 9-14.9 16.7s.1 15.8 5.3 21.7c2.5 2.8 4 6.5 4 10.6c0 7.8-5.6 14.3-13 15.7c-8.2 1.6-15.1 7.3-18 15.1s-1.6 16.7 3.6 23.3c2.1 2.7 3.4 6.1 3.4 9.9c0 6.7-4.2 12.6-10.2 14.9c-11.5 4.5-17.7 16.9-14.4 28.8c.4 1.3 .6 2.8 .6 4.3c0 8.8-7.2 16-16 16H286.5c-12.6 0-25-3.7-35.5-10.7l-61.7-41.1c-11-7.4-25.9-4.4-33.3 6.7s-4.4 25.9 6.7 33.3l61.7 41.1c18.4 12.3 40 18.8 62.1 18.8H384c34.7 0 62.9-27.6 64-62c14.6-11.7 24-29.7 24-50c0-4.5-.5-8.8-1.3-13c15.4-11.7 25.3-30.2 25.3-51c0-6.5-1-12.8-2.8-18.7C504.8 273.7 512 257.7 512 240c0-35.3-28.6-64-64-64l-92.3 0c4.7-10.4 8.7-21.2 11.8-32.2l5.7-20c10.9-38.2-11.2-78.1-49.4-89zM32 192c-17.7 0-32 14.3-32 32V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32H32z"/>
+                </svg>
+                <span>
+                  Beğen
+                </span>
+              </div>
+              <div class="footer-tabs">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512" style="fill: rgba(0, 0, 0, 0.6);">
+                  <path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z"/>
+                </svg>
+                <span>
+                  Yorum Yap
+                </span>
+              </div>
+              <div class="footer-tabs">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 576 512" style="fill: rgba(0, 0, 0, 0.6);">
+                  <path d="M272 416c17.7 0 32-14.3 32-32s-14.3-32-32-32H160c-17.7 0-32-14.3-32-32V192h32c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-64-64c-12.5-12.5-32.8-12.5-45.3 0l-64 64c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l32 0 0 128c0 53 43 96 96 96H272zM304 96c-17.7 0-32 14.3-32 32s14.3 32 32 32l112 0c17.7 0 32 14.3 32 32l0 128H416c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l64 64c12.5 12.5 32.8 12.5 45.3 0l64-64c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8l-32 0V192c0-53-43-96-96-96L304 96z"/>
+                </svg>
+                <span>
+                  Paylaş
+                </span>
+              </div>
+              <div class="footer-tabs">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512" style="fill: rgba(0, 0, 0, 0.6);">
+                  <path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376V479.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/>
+                </svg>
+                <span>
+                  Gönder
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--Middle of Page Finish-->
+      <div class="rightsidebar ms-4"><!--Right Side Bar Start-->
+        <div class="card">
+          <div class="card-body">
+            <div class="flex-container justify-content-between">
+              <h6>
+                Akışınıza ekleyin
+              </h6>
+              <span class="d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                  <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+                </svg>
+              </span>
+            </div>
+            <div class="d-flex flex-row mt-3"> <!--Rightbar Person 1-->
+              <div>
+                <img class="gb-img" src="/img/emilazola.jpg" alt="Emila-Zola">
+              </div>
+              <div class="d-flex flex-column identy">
+                <span class="gname">
+                  <small>
+                    J.K. Rowling
+                  </small>
+                </span>
+                <span>
+                  <small class="g-subtext">
+                    Writer | Game Developer
+                  </small>
+                </span>
+                <span>
+                  <button type="button" class="follow-btn mt-2">
+                    <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" style="fill:rgba(0, 0, 0, 0.6);">
+                        <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/>
+                      </svg>
+                    </span>
+                    Takip et
+                  </button>
+                </span>
+              </div>
+            </div>
+            <div class="d-flex flex-row mt-3"> <!--Rightbar Person 2-->
+            <div>
+              <img class="gb-img" src="/img/sigmund-freud.jpg" alt="Sigmund Freud">
+            </div>
+            <div class="d-flex flex-column identy">
+              <span class="gname">
+                <small>
+                  Sigmund Freud
+                </small>
+              </span>
+              <span>
+                <small class="g-subtext">
+                  Psychoanalyst, Neuroscience, Machine Learning, Data Science
+                </small>
+              </span>
+              <span>
+                <button type="button" class="follow-btn mt-2">
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" style="fill:rgba(0, 0, 0, 0.6);">
+                      <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/>
+                    </svg>
+                  </span>
+                  Takip et
+                </button>
+              </span>
+            </div>
+            </div>
+            <div class="d-flex flex-row mt-3"> <!--Rightbar Person 3-->
+              <div>
+                <img class="gb-img" src="/img/barış-akarus.jpg" alt="Barış Akarsu">
+              </div>
+              <div class="d-flex flex-column identy">
+                <span class="gname">
+                  <small>
+                    Barış Akarsu
+                  </small>
+                </span>
+                <span>
+                  <small class="g-subtext">
+                    Müzisyen, Front-End Developer, React, Python, Tailwind CSS, Bootstrap5
+                  </small>
+                </span>
+                <span>
+                  <button type="button" class="follow-btn mt-2">
+                    <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" style="fill:rgba(0, 0, 0, 0.6);">
+                        <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/>
+                      </svg>
+                    </span>
+                    Takip et
+                  </button>
+                </span>
+              </div>
+            </div>
+            <div class="mt-3 gmain" style="font-weight: 500;color: rgb(114, 114, 114);cursor: pointer;">
+              Tüm tavsiyeleri görüntüle
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="fill: gray;">
+                  <path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"/>
+                </svg>
+              </span>
+            </div>
+        </div>
+      </div>
+      <div class="sticky-top" style="top: 75px;"> <!--sticky-right-panel-->
+        <div class="card mt-2">
+          <img src="/img/rightpanelimg.png" alt="RightPanelImg" class="card-img">
+        </div>
+        <div class="rightpaneltabs">
+          <ul class="rp-tabs">
+            <li><a href="#">Hakkında</a></li>
+            <li><a href="#">Erişebilirlik</a></li>
+            <li><a href="#">Yardım Merkezi</a></li>
+            <li><a href="#">Gizlilik ve Koşullar</a></li>
+            <li><a href="#">Reklam Tercihleri</a></li>
+            <li><a href="#">Reklam</a></li>
+            <li><a href="#">Ticari Hizmetler</a></li>
+            <li><a href="#">LinkedIn uygulamasını yükle</a></li>
+            <li><a href="#">Daha Fazla</a></li>
+          </ul>
+          <div class="d-flex justify-content-center" style="font-size: 12px; color: #000000E6;">
+            <img src="https://static.licdn.com/sc/h/47josflhxdz9o3v227aa72l1p" alt="LinkedIn">
+            &nbsp;
+            LinkedIn Corporation © 2023 <br>
+          </div>
+        </div>
+      </div>
+      </div><!--Right Side Bar Finish-->
+    </div> <!--flex-container Finish-->
+  </div> <!--Kapsayici Finish-->
+  <!--Mesajlaşma Start-->
+  <button class="d-flex justify-content-between btn-light chatbar float-end align-items-center fixed-bottom" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" style="left: auto;">
+    <span>
+      <span class="position-relative">
+        <img src="/img/vesikalik.jpeg" alt="Samet Polat" style="width: 32px;height: 32px; border-radius: 50%;">
+        <span class="badge bg-success translate-middle p-1 border border-light rounded-circle chatonline">.</span>
+      </span>
+      &nbsp;
+      <small style="font-weight: 500;">
+        Mesajlaşma
+      </small>
+    </span>
+    <span>
+      <span class="me-3">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" style="fill: rgb(101, 101, 101);">
+          <path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/>
+        </svg>
+      </span>
+      <span class="me-3">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="fill: rgb(102, 102, 102);">
+          <path d="M471.6 21.7c-21.9-21.9-57.3-21.9-79.2 0L362.3 51.7l97.9 97.9 30.1-30.1c21.9-21.9 21.9-57.3 0-79.2L471.6 21.7zm-299.2 220c-6.1 6.1-10.8 13.6-13.5 21.9l-29.6 88.8c-2.9 8.6-.6 18.1 5.8 24.6s15.9 8.7 24.6 5.8l88.8-29.6c8.2-2.7 15.7-7.4 21.9-13.5L437.7 172.3 339.7 74.3 172.4 241.7zM96 64C43 64 0 107 0 160V416c0 53 43 96 96 96H352c53 0 96-43 96-96V320c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H96z"/>
+        </svg>
+      </span>
+      <span class="me-3">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="fill: rgb(100, 100, 100);">
+          <path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/>
+        </svg>
+      </span>
+    </span>
+  </button>
+  <div class="offcanvas offcanvas-bottom openchat" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+    <div class="card">
+      <div class="card-header" style="margin: 0;padding: 0;">
+        <button class="d-flex justify-content-between btn-light chatbar  align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" style="box-shadow: none;">
+          <span>
+            <span class="position-relative">
+              <img src="/img/vesikalik.jpeg" alt="Samet Polat" style="width: 32px;height: 32px; border-radius: 50%;">
+              <span class="badge bg-success translate-middle p-1 border border-light rounded-circle chatonline">.</span>
+            </span>
+            &nbsp;
+            <small style="font-weight: 500;">
+              Mesajlaşma
+            </small>
+          </span>
+          <span>
+            <span class="me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" style="fill: rgb(101, 101, 101);">
+                <path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/>
+              </svg>
+            </span>
+            <span class="me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="fill: rgb(102, 102, 102);">
+                <path d="M471.6 21.7c-21.9-21.9-57.3-21.9-79.2 0L362.3 51.7l97.9 97.9 30.1-30.1c21.9-21.9 21.9-57.3 0-79.2L471.6 21.7zm-299.2 220c-6.1 6.1-10.8 13.6-13.5 21.9l-29.6 88.8c-2.9 8.6-.6 18.1 5.8 24.6s15.9 8.7 24.6 5.8l88.8-29.6c8.2-2.7 15.7-7.4 21.9-13.5L437.7 172.3 339.7 74.3 172.4 241.7zM96 64C43 64 0 107 0 160V416c0 53 43 96 96 96H352c53 0 96-43 96-96V320c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H96z"/>
+              </svg>
+            </span>
+            <span class="me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="fill: rgb(100, 100, 100);">
+                <path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/>
+              </svg>
+            </span>
+          </span>
+        </button>
+      </div>
+      <div class="card-body">
+        <input class="form-control chatsearch" type="text" placeholder="Mesajlarda ara" aria-label="default input example">
+      </div>
+      <div class="d-flex flex-row">
+        <div>
+          <button type="button" class="chat-buttons active-buttons">
+            Odaklı
+          </button>
+        </div>
+        <div>
+          <button type="button" class="chat-buttons" style="border-bottom: 1px solid grey;">
+            Diğer
+          </button>
+        </div>
+      </div>
+      <div class="card-body" style="padding: 10px 8px 0;">
+        <div class="d-flex flex-column">
+          <div class="d-flex flex-row msg"> <!--1.Messeage-->
+            <div>
+              <img src="/img/chat1.jpg" alt="Benzema" style="width: 48px;height: 48px;border-radius: 50%;">
+            </div>
+            <div class="ms-2" style="font-size: 14px;font-weight: 400;line-height: -8px;">
+              Karim Benzema 
+              <span class="chat-subtext float-end">21 Eylül</span>
+              <p class="chat-subtext">
+                It could be. I would like to invite you to my next match &#128170;
+              </p>
+            </div>
+          </div>
+          <div class="d-flex flex-row msg"> <!--2.Messeage-->
+            <div>
+              <img src="/img/timcook.jpg" alt="Benzema" style="width: 48px;height: 48px;border-radius: 50%;">
+            </div>
+            <div class="ms-2" style="font-size: 14px;font-weight: 400;line-height: -8px;">
+              Tim Cook
+              <span class="chat-subtext"></span>
+              <p class="chat-subtext">
+                Can you edit the Apple.com?
+              </p>
+            </div>
+          </div>
+          <div class="d-flex flex-row msg"> <!--3.Messeage-->
+            <div>
+              <img src="/img/chat3.jpg" alt="Benzema" style="width: 48px;height: 48px;border-radius: 50%;">
+            </div>
+            <div class="ms-2" style="font-size: 14px;font-weight: 400;line-height: -8px;">
+              Yonnie Feng 
+              <span class="chat-subtext float-end">30 Ağustos</span>
+              <p class="chat-subtext">
+                Hi Samet, <br>
+                Thank you for accepting my connection 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Mesajlaşma Finish-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+</body>
+</html>

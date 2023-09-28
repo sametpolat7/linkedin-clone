@@ -18,4 +18,4 @@ In this project I tried to make a clone of [LinkedIn.com](https://www.linkedin.c
 - Offcanvas used for Chatbar and "For Work" tabs
 - one-to-one clone with the original website
 
-**Contact me** : &nbsp; <a href="https://www.linkedin.com/in/sametpolat17/" target="_blank"><img src="/img/linkedin.png" alt="LinkedIn" width="25px" height="25px"/></a>  &nbsp; Samet Polat
+**Contact me** : &nbsp; <a href="https://www.linkedin.com/in/sametpolat17/" target="_blank"><img src="/img/favicon.png" alt="LinkedIn" width="25px" height="25px"/></a>  &nbsp; Samet Polat
